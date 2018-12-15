@@ -32,8 +32,8 @@ resource "aws_security_group" "securitygroupsubnet" {
       "${aws_vpc.my_test_vpc.cidr_block}"
     ]
     from_port = 80
-    to_port =80
-    protocol = tcp
+    to_port = 80
+    protocol = "tcp"
   }
 }
 
