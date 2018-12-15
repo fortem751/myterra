@@ -1,6 +1,6 @@
 resource "google_compute_network" "dev_network" {
   name = "devnet"
-  auto_create_subnetworks = true
+  auto_create_subnetworks = false
 }
 
 resource "aws_vpc" "my_test_vpc" {
