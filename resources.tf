@@ -25,7 +25,7 @@ resource "aws_subnet" "subnet2" {
 }
 
 resource "aws_security_group" "securitygroupsubnet" {
-  vpc_id = ${aws_vpc.my_test_vpc.id}
+  vpc_id = "${aws_vpc.my_test_vpc.id}"
 
   ingress {
     cidr_blocks = [
