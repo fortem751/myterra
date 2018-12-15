@@ -18,3 +18,4 @@ resource "aws_subnet" "subnet1" {
   availability_zone = "us-east-1"
 }
 
+
