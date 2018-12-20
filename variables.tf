@@ -1,4 +1,4 @@
-variable "s3_bucket_prefix" {
+variable "s3_bucket_name" {
   # default = "Super-Jo-s3-bucket"
   description = "Name of the s3 bucket"
   type = "string"
