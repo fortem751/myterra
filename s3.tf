@@ -1,5 +1,5 @@
-resource "aws_s3_bucket" "mybucket" {
-  bucket = "${var.s3_bucket_name}"
+resource "aws_s3_bucket" "main" {
+  bucket = "${var.s3_bucket_prefix}"
   acl    = "private"
 
   tags = {
