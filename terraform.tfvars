@@ -1,1 +1,1 @@
-s3_bucket_name = "Super-Jo-s3-bucket"
+s3_bucket_name = "superjo-bucket"
